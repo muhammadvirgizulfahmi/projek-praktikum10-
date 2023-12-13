@@ -1,0 +1,158 @@
+body {
+    font-family: 'Roboto';
+}
+.active {
+    font-weight: bold;
+}
+.carousel-item {
+    max-height: 500px;
+    object-fit: cover;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    width: 50px; 
+    height: 50px; 
+    padding: 10px 0;
+}
+.container-fluid {
+    max-width: 1000px;
+    margin-top: 20px;
+}
+#carouselExampleCaptions {
+    max-width: 1100px;
+    margin: 20px auto;
+}
+.carousel-inner {
+    border-radius: 30px;
+}
+.carousel-caption {
+    background-color: rgba(154, 154, 154, 0.209);
+    border-radius: 20px;
+    margin-bottom: 170px;
+}
+.breadcrumb {
+    max-width: 1100px;
+    justify-content: flex-end;
+    margin: 40px 0 0 30px;
+}
+.breadcrumb a {
+    padding: 20px 0;
+    text-decoration: none;
+}
+#content {
+    margin: auto;
+    max-width: 1100px;
+    margin: 20px auto;
+    margin-bottom: 80px;
+    border-radius: 30px;
+}
+#table-content {
+    padding: 0 70px;
+}
+.card-body {
+    min-height: 185px;
+    margin-bottom: 20px;
+}
+.card-body img{
+    max-height: 298px;
+    object-fit: cover;
+}
+form {
+    padding: 0 50px 40px 50px;
+}
+.card-header  {
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 20px;
+}
+#about-container {
+    margin: 50px auto;
+    padding: 90px 0;
+    background-color: rgba(142, 142, 142, 0.175);
+    max-width: 700px;
+    border-radius: 50px;
+}
+#about-container img {
+    border-radius: 30px;
+    max-width: 400px;
+}
+.cabang img {
+    max-width: 20px;
+    max-height: 20px;
+}
+.listcabang {
+    display: block;
+}
+.location {
+    display:inline-flex;
+}
+.cabang{
+    display:flex;
+}
+.owner-title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.owner-text {
+    max-width: 500px;
+    text-align: justify;
+    margin: 70px auto 0 auto;
+}
+@media only screen and (max-width: 499px) {
+    .carousel-inner {
+        border-radius: 0;
+    }
+    #content{
+        max-width: 340px;
+    }
+    form {
+        padding: 0 20px 35px 20px;
+    }
+    .card-body {
+        margin: 0;
+        padding: 0;
+    }
+    .card {
+        margin-top: -30px;
+        margin-bottom: 40px;
+    }
+    .carousel-item img{
+        max-height: 250px;
+    }
+    .navbar {
+        padding: 0 15px;
+    }
+    .breadcrumb {
+        max-width: 340px;
+        justify-content: center;
+        margin-top: 50px;
+    }
+    #table-content {
+        padding: 0 20px;
+        padding-bottom: 40px;
+        font-size: 12px;
+    }
+    .promotion {
+        padding: 0;
+    }
+    #about-container {
+        border-radius: 0;
+        margin: 5px auto;
+    }
+    #about-container img {
+        max-width: 300px;
+    }
+    .owner-title {
+        font-weight: bold;
+    }
+    .owner-text {
+        max-width: 320px;
+        text-align: justify;
+    }
+}
+@media only screen and (min-width: 1200px) {
+    #navbarNav {
+        display: flex;
+        justify-content: flex-end;
+    }
+}
